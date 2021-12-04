@@ -1,0 +1,115 @@
+:root{
+    --darkgray: #212329;
+    --brightred: #F94230;
+    --lightred:#f9433dcc;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-container {
+    width: 100%;
+    background-color:rgb(217, 231, 243);
+
+}
+
+#navmenu{
+    background-color: white;
+  }
+  
+  
+  .logo-img{
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+  }
+  .nav-item{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .item-content{
+    color: #292b29;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+.Navbar-items{
+    padding:20px;
+    line-height: 1px;
+    
+}
+
+#navbar-logo{
+    color: black;
+    justify-self: start;
+    margin-left: 20px;
+
+}
+
+#navbar-logo{
+    cursor: pointer;
+
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-self: end;
+}
+
+.nav-links {
+    color:black;
+    text-decoration: none;
+
+}
+
+.nav-links:hover {
+    color: darkcyan;
+    transition: all 0.2s ease-out;
+
+}
+
+.nav-links-btn {
+    background-color:whitesmoke;
+    padding: 6px 16px;
+    border-radius: 4px;
+
+}
+
+.nav-links-btn:hover {
+    background-color:rgb(93, 130, 185);
+    color:black;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border:soid 1px var(--brightred);
+    transition: all 0.3s ease-out;
+}
+
+.header-iconicproject{
+    color: #68a1cc;
+    text-align: center;
+    margin :20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.About_us_intro{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.card-group{
+    padding: 50px;
+    margin: 80px;
+}
+
+.btn{
+    align-items: center;
+}
+
+.img-fluid{
+    width: 160px;
+    height: 160px;
+}
